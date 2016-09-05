@@ -1,0 +1,6 @@
+W celu uruchomienia programu należy:
+-Zainstalować bazę danych H2. Baza do pobrania pod adresem: http://www.h2database.com/html/download.html
+Uruchomić bazę danych używając url: jdbc:h2:tcp://localhost/./Public
+Zaimportować projekt do Eclipse. Klikamy menu File nastepnie import>General>Existing Project into Workspace. Wybieramy select archive file i wskazujemy na plik carsCollection.zip
+Używając Eclipse IDE uruchomić projekt. Klikamy prawy przycisk myszki na projekcie CarsCollecion runas Maven build
+Otwieramy przeglądarkę internetową i wpisujemy adres: http://localhost:8080/CarsCollection.
